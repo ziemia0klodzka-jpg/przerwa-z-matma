@@ -23,5 +23,13 @@ Od wersji 3.2 aplikacja na telefonie rodzica sama pokazuje **„Jest nowa wersja
 „Zaktualizuj aplikację”, a potem **„Zaktualizuj wszystkie tablety”**. Telefon z wersją 3.1 lub starszą
 trzeba raz zaktualizować ręcznie — linkiem wyżej.
 
+## Limit serwera wiadomości
+
+Telefon rodzica i tablety rozmawiają przez darmowy przekaźnik ntfy.sh. Przyjmuje on najwyżej **250 wiadomości
+na dobę z jednej sieci** (telefon i tablety w tym samym Wi-Fi dzielą jeden limit). Od wersji 3.2.1 aplikacja
+wysyła ich kilka razy mniej, a po wyczerpaniu limitu pokazuje prawdziwy powód i godzinę odnowienia
+(zamiast „brak internetu”). Szczegóły: panel rodzica → menu → **🩺 Diagnostyka**. Do czasu odnowienia
+polecenia wyślesz z telefonu przez dane komórkowe.
+
 Każde wydanie zawiera `PrzerwaZMatma.apk` i `version.properties` (numer wersji i suma SHA-256).
 Aplikacja instaluje tylko plik podpisany tym samym kluczem co zainstalowana wersja.
