@@ -5,6 +5,20 @@ dziecko rozwiązuje zadania z matematyki (klasy 1–3, także działania pisemne
 ze słówek włoskich (obrazek + 4 odpowiedzi z wymową) i — od wersji 3.3 — z czytania ze zrozumieniem
 po polsku i po włosku. Ustawienia chroni PIN rodzica.
 
+## Nowości w 3.4
+
+- **Nowe przedmioty:** angielski (≈500 słówek i 200 zdań, z wymową) i ortografia (ó/u, rz/ż, ch/h — 400 wyrazów z regułami).
+- **Nowa matematyka:** zegar, pieniądze (ile razem, ile reszty), porównywanie liczb, figury, trening tabliczki
+  mnożenia, 300 zadań z treścią; opcjonalnie poziom dobierany automatycznie.
+- **Motywacja:** album 160 naklejek w 8 albumach, seria dni, odznaki; opcjonalne „➕ Zarób minuty” (zadania za dodatkowy czas).
+- **Czas i harmonogram** (telefon rodzica): cisza nocna, dzienny limit (osobno dni szkolne i weekend),
+  „➕ Dodaj czas dziś”.
+- **Aplikacje i YouTube** (telefon rodzica, na prośbę): czas w aplikacjach z 7 dni, limity i blokady aplikacji,
+  lista obejrzanych filmów (tytuł, kanał, kiedy, jak długo). Wymaga na tablecie zgód „Dostęp do danych o użyciu”
+  i „Dostęp do powiadomień” (panel rodzica → „⏰ Czas i aplikacje”). Zapisywane są tylko odtwarzane multimedia —
+  treść innych powiadomień nie jest czytana.
+- **Własne słówka i pytania** wysyłane z telefonu na tablet; **podsumowanie tygodnia** raz w tygodniu.
+
 ## Nowości w 3.3
 
 - **📊 Statystyki nauki** na telefonie rodzica („Więcej…” → Statystyki nauki): zadania i poprawność z 14 dni,
@@ -39,7 +53,8 @@ Telefon rodzica i tablety rozmawiają przez darmowy przekaźnik ntfy.sh. Przyjmu
 na dobę z jednej sieci** (telefon i tablety w tym samym Wi-Fi dzielą jeden limit). Od wersji 3.2.1 aplikacja
 wysyła ich kilka razy mniej, a po wyczerpaniu limitu pokazuje prawdziwy powód i godzinę odnowienia
 (zamiast „brak internetu”). Szczegóły: panel rodzica → menu → **🩺 Diagnostyka**. Do czasu odnowienia
-polecenia wyślesz z telefonu przez dane komórkowe. Pobranie statystyk nauki (od 3.3) to 2 wiadomości.
+polecenia wyślesz z telefonu przez dane komórkowe. Pobranie statystyk nauki (od 3.3) albo raportu aplikacji
+(od 3.4) to 2 wiadomości; podsumowanie tygodnia — 1 wiadomość na tablet tygodniowo.
 
 Każde wydanie zawiera `PrzerwaZMatma.apk` i `version.properties` (numer wersji i suma SHA-256).
 Aplikacja instaluje tylko plik podpisany tym samym kluczem co zainstalowana wersja.
