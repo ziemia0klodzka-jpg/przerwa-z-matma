@@ -1,8 +1,18 @@
 # Przerwa z Matmą
 
 Aplikacja na tablety z Androidem (7.0+), która co ustalony czas korzystania wymusza przerwę:
-dziecko rozwiązuje zadania z matematyki (klasy 1–3, także działania pisemne „pod kreską”)
-i ze słówek włoskich (obrazek + 4 odpowiedzi z wymową). Ustawienia chroni PIN rodzica.
+dziecko rozwiązuje zadania z matematyki (klasy 1–3, także działania pisemne „pod kreską”),
+ze słówek włoskich (obrazek + 4 odpowiedzi z wymową) i — od wersji 3.3 — z czytania ze zrozumieniem
+po polsku i po włosku. Ustawienia chroni PIN rodzica.
+
+## Nowości w 3.3
+
+- **📊 Statystyki nauki** na telefonie rodzica („Więcej…” → Statystyki nauki): zadania i poprawność z 14 dni,
+  „Czy się uczy?”, powtórki, rodzaje zadań z matematyki, najtrudniejsze słówka. Tablet wysyła je tylko na prośbę.
+- **Czytanie po polsku i po włosku** (bez lektora): słowo → obrazek, zdanie z pytaniem, krótki tekst z pytaniem.
+- **Przedmioty do zaznaczenia**: matematyka, włoski, czytanie po polsku, czytanie po włosku — w dowolnym zestawie.
+- **Więcej włoskiego**: ok. 800 słówek (było 500) i ok. 500 zdań (było 300).
+- **Głośność** po przerwie, blokadzie lub komunikacie wraca do poziomu sprzed przerwy, jeśli w tym czasie wzrosła.
 
 ## Pobierz
 
@@ -29,7 +39,7 @@ Telefon rodzica i tablety rozmawiają przez darmowy przekaźnik ntfy.sh. Przyjmu
 na dobę z jednej sieci** (telefon i tablety w tym samym Wi-Fi dzielą jeden limit). Od wersji 3.2.1 aplikacja
 wysyła ich kilka razy mniej, a po wyczerpaniu limitu pokazuje prawdziwy powód i godzinę odnowienia
 (zamiast „brak internetu”). Szczegóły: panel rodzica → menu → **🩺 Diagnostyka**. Do czasu odnowienia
-polecenia wyślesz z telefonu przez dane komórkowe.
+polecenia wyślesz z telefonu przez dane komórkowe. Pobranie statystyk nauki (od 3.3) to 2 wiadomości.
 
 Każde wydanie zawiera `PrzerwaZMatma.apk` i `version.properties` (numer wersji i suma SHA-256).
 Aplikacja instaluje tylko plik podpisany tym samym kluczem co zainstalowana wersja.
