@@ -5,6 +5,12 @@ dziecko rozwiązuje zadania z matematyki (klasy 1–3, także działania pisemne
 ze słówek włoskich (obrazek + 4 odpowiedzi z wymową) i — od wersji 3.3 — z czytania ze zrozumieniem
 po polsku i po włosku. Ustawienia chroni PIN rodzica.
 
+## Nowości w 3.4.1
+
+- **Czytanie:** dziecko widzi, czy czyta po polsku, czy po włosku (flaga, polecenie i podpowiedź).
+- **Wykrywanie zgadywania:** zbyt szybka błędna odpowiedź — najpierw ostrzeżenie, potem +1 zadanie w przerwie
+  (najwyżej 3). Rodzic może to wyłączyć („Wykrywaj zgadywanie” w panelu rodzica i w ustawieniach przerw na telefonie).
+
 ## Nowości w 3.4
 
 - **Nowe przedmioty:** angielski (≈500 słówek i 200 zdań, z wymową) i ortografia (ó/u, rz/ż, ch/h — 400 wyrazów z regułami).
