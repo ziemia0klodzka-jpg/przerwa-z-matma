@@ -5,6 +5,30 @@ dziecko rozwiązuje zadania z matematyki (klasy 1–3, także działania pisemne
 ze słówek włoskich (obrazek + 4 odpowiedzi z wymową) i — od wersji 3.3 — z czytania ze zrozumieniem
 po polsku i po włosku. Ustawienia chroni PIN rodzica.
 
+## Nowości w 3.5
+
+- **Dyktando ze słuchu** (po włosku, angielsku i polsku): tablet czyta słowo, dziecko wybiera, jak się je pisze.
+  Włoski i angielski — na poziomie Średnim i Trudnym, ortografia — mniej więcej 4 na 10 zadań. Potrzebny głos danego
+  języka na tablecie (do ortografii — polski). Domyślnie wyłączone: „Dyktando ze słuchu” w panelu rodzica.
+- **Wiedza o świecie** — nowy przedmiot: zwierzęta, rośliny, ciało, kosmos, Polska i świat (stolice, flagi), pogoda,
+  bezpieczeństwo, ekologia, wynalazki; dwa poziomy (klasy 1–2 / klasa 3), po odpowiedzi ciekawostka. Trzeba go
+  zaznaczyć w przedmiotach.
+- **Szybkie odpowiedzi** (telefon rodzica): w powiadomieniu o prośbie dziecka „➕ 15 min”, „➕ 30 min” i „Nie teraz”;
+  działają dopiero po odblokowaniu telefonu. Domyślnie wyłączone (menu panelu → „Szybkie odpowiedzi w powiadomieniach”).
+- **📋 Logi z tabletu** na prośbę — stan, zgody, aktualizacje i dziennik aplikacji (bez PIN-u i kluczy);
+  „📤 Udostępnij” jako plik `.txt`.
+- **💾 Kopia postępów**: naklejki, postęp słówek, wyniki z 14 dni, własne listy i ustawienia. Telefon trzyma 4 ostatnie
+  kopie każdego tabletu i może je przywrócić na ten sam albo nowy tablet (opcjonalnie z ustawieniami). Kopia co
+  tydzień — domyślnie wyłączona.
+- **🔊 Głośność tabletu**: ustawienie albo wyciszenie z telefonu oraz najwyższa głośność (domyślnie 100% = bez limitu).
+- Po aktualizacji wszystkie ustawienia zostają jak były; nowe funkcje włącza rodzic.
+
+## Nowości w 3.4.2
+
+- **Aktualizacje:** telefon rodzica pokazuje, dlaczego tablet się nie zaktualizował (np. okno instalacji zamknięte na
+  tablecie), a przycisk „⬆️ Zaktualizuj teraz” jest od razu na karcie tabletu.
+- Jeśli tablet pyta „Czy chcesz zaktualizować tę aplikację?”, naciśnij przy nim „Zaktualizuj” — wystarczy raz.
+
 ## Nowości w 3.4.1
 
 - **Czytanie:** dziecko widzi, czy czyta po polsku, czy po włosku (flaga, polecenie i podpowiedź).
@@ -60,7 +84,9 @@ na dobę z jednej sieci** (telefon i tablety w tym samym Wi-Fi dzielą jeden lim
 wysyła ich kilka razy mniej, a po wyczerpaniu limitu pokazuje prawdziwy powód i godzinę odnowienia
 (zamiast „brak internetu”). Szczegóły: panel rodzica → menu → **🩺 Diagnostyka**. Do czasu odnowienia
 polecenia wyślesz z telefonu przez dane komórkowe. Pobranie statystyk nauki (od 3.3) albo raportu aplikacji
-(od 3.4) to 2 wiadomości; podsumowanie tygodnia — 1 wiadomość na tablet tygodniowo.
+(od 3.4) to 2 wiadomości; podsumowanie tygodnia — 1 wiadomość na tablet tygodniowo. Od 3.5 pobranie logów
+z tabletu albo „Zrób kopię teraz” to też 2 wiadomości, a cotygodniowa kopia postępów (jeśli ją włączysz) — 1 wiadomość
+na tablet tygodniowo.
 
 Każde wydanie zawiera `PrzerwaZMatma.apk` i `version.properties` (numer wersji i suma SHA-256).
 Aplikacja instaluje tylko plik podpisany tym samym kluczem co zainstalowana wersja.
