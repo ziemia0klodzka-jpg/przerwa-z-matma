@@ -5,6 +5,11 @@ dziecko rozwiązuje zadania z matematyki (klasy 1–3, także działania pisemne
 ze słówek włoskich (obrazek + 4 odpowiedzi z wymową) i — od wersji 3.3 — z czytania ze zrozumieniem
 po polsku i po włosku. Ustawienia chroni PIN rodzica.
 
+## Nowości w 3.5.1
+
+- **Dźwięki po odpowiedzi:** krótki wesoły po dobrej i krótki niski po złej. Można je wyłączyć („Dźwięki po odpowiedzi”
+  w panelu rodzica i w ustawieniach przerw na telefonie).
+
 ## Nowości w 3.5
 
 - **Dyktando ze słuchu** (po włosku, angielsku i polsku): tablet czyta słowo, dziecko wybiera, jak się je pisze.
