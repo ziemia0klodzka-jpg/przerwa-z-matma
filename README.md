@@ -1,9 +1,21 @@
 # Przerwa z Matmą
 
 Aplikacja na tablety z Androidem (7.0+), która co ustalony czas korzystania wymusza przerwę:
-dziecko rozwiązuje zadania z matematyki (klasy 1–3, także działania pisemne „pod kreską”),
-ze słówek włoskich (obrazek + 4 odpowiedzi z wymową) i — od wersji 3.3 — z czytania ze zrozumieniem
+dziecko rozwiązuje zadania z matematyki (klasy 1–3, od 3.6 także klasa 4; również działania pisemne „pod kreską”),
+ze słówek włoskich i angielskich (obrazek + 4 odpowiedzi z wymową) i — od wersji 3.3 — z czytania ze zrozumieniem
 po polsku i po włosku. Ustawienia chroni PIN rodzica.
+
+## Nowości w 3.6
+
+Wszystko domyślnie wyłączone — po aktualizacji przerwy są takie jak wcześniej; włącza rodzic (panel rodzica na tablecie
+albo ustawienia przerw na telefonie, gdy tablet ma już 3.6).
+
+- **Matematyka klasy 4** (grupa i przycisk „Klasa 4”): mnożenie i dzielenie do 1000, dzielenie pisemne, dodawanie
+  i odejmowanie pisemne do 10 000, równania z niewiadomą, ułamki, zadania z treścią na 2–3 działania.
+- **Poziom „Ekspert”** włoskiego, angielskiego i czytania: trudniejsze słówka, dłuższe zdania bez podpowiedzi,
+  dłuższe teksty z pytaniem o szczegół.
+- **Wpisywanie słówek** na klawiaturze w aplikacji (po włosku z akcentami à è é ì ò ù).
+- **Odmiana czasowników włoskich** w czasie teraźniejszym — 74 czasowniki, od regularnych po nieregularne.
 
 ## Nowości w 3.5.2
 
