@@ -5,6 +5,10 @@ dziecko rozwiązuje zadania z matematyki (klasy 1–3, od 3.6 także klasa 4; r�
 ze słówek włoskich i angielskich (obrazek + 4 odpowiedzi z wymową) i — od wersji 3.3 — z czytania ze zrozumieniem
 po polsku i po włosku. Ustawienia chroni PIN rodzica.
 
+## Nowości w 3.6.1
+
+- **„Przerwa co … min”** ustawisz teraz co 1 minutę (wcześniej co 5), na tablecie i na telefonie rodzica. Starszy telefon pokaże taką wartość zaokrągloną do 5 minut, ale jej nie zmieni, dopóki nie przesuniesz suwaka.
+
 ## Nowości w 3.6
 
 Wszystko domyślnie wyłączone — po aktualizacji przerwy są takie jak wcześniej; włącza rodzic (panel rodzica na tablecie
